@@ -14,7 +14,8 @@ This is my personal portfolio website. It shows who I am, what I do, and the pro
 - `style.css` – all colors, layout, animations  
 - `script.js` – interactive parts (projects, certificate popup, contact form)  
 - `Maryam_CV.pdf` – my resume (downloadable)  
-- `certificate.png` – my Generative AI certificate image  
+- `certificate.png` – my Generative AI certificate image
+- 'internship_certificate.jpeg'- my Frontend development internship certificate image
 
 ## ✨ Features
 - Clean and responsive design (works on mobile, tablet, laptop)
