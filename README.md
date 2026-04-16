@@ -51,4 +51,4 @@ Any changes pushed to the `main` branch will automatically update the live site.
 
 *Made with ❤️ by Maryam Ghaffar – Software Engineering student at LCWU*
 
-© 2026 Maryam Ghaffar — Created with love for my portfolio.
+© 2026 Maryam Ghaffar | Crafting digital experiences, one line at a time
