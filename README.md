@@ -38,19 +38,33 @@ A modern, responsive, and fully functional portfolio website built with **HTML, 
 
 ## 📁 File Structure
 Maryam_Portfolio/
+
 ├── index.html
+
 ├── style.css
+
 ├── script.js
+
 ├── Maryam_CV_Professional.pdf
+
 ├── certificate-genai.jpg
+
 ├── certificate-internship.jpg
+
 ├── certificate-uiux.jpg
+
 ├── certificate-freelancing.jpg
+
 ├── screenshot-smartpaper.png
+
 ├── screenshot-careerpulse.png
+
 ├── screenshot-husan.png
+
 ├── screenshot-tajmahal.png
+
 ├── screenshot-formvalidation.png
+
 └── README.md
 
 ---
@@ -96,17 +110,25 @@ certData – Add/remove certifications.
 Simply edit the arrays and the website updates automatically.
 
 📬 Contact
+
 Maryam Ghaffar
+
 Frontend Developer | Web Developer | AI Enthusiast
 
 📧 maryamghaffar1234m@gmail.com
+
 📞 +92 322 7592508
+
 📍 Lahore, Pakistan
+
 🌐 Portfolio
+
 🐙 GitHub
+
 🔗 LinkedIn
 
 📄 License
+
 This project is open-source and available for personal and educational use.
 
 Made with ❤️ by Maryam Ghaffar – Frontend Developer | Web Developer | AI Enthusiast
