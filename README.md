@@ -77,6 +77,7 @@ Maryam_Portfolio/
    git clone https://github.com/maryamghaffar1234m-png/Maryam_Portfolio.git
  2. Open index.html in your browser.
  3. That's it – no build step required.
+    
 🧩 Easy Updates
 All dynamic content is stored in JavaScript arrays in script.js:
 
@@ -97,6 +98,7 @@ Simply edit the arrays and the website updates automatically.
 📬 Contact
 Maryam Ghaffar
 Frontend Developer | Web Developer | AI Enthusiast
+
 📧 maryamghaffar1234m@gmail.com
 📞 +92 322 7592508
 📍 Lahore, Pakistan
