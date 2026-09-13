@@ -92,7 +92,8 @@ Maryam_Portfolio/
  2. Open index.html in your browser.
  3. That's it – no build step required.
     
-🧩 Easy Updates
+**🧩 Easy Updates
+
 All dynamic content is stored in JavaScript arrays in script.js:
 
 servicesData – Add/remove services.
