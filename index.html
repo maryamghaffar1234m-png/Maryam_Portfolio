@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maryam Ghaffar | Frontend Developer, Web Developer & AI Enthusiast</title>
-    <meta name="description" content="Maryam Ghaffar - Frontend Developer, Web Developer & AI Enthusiast. Expert in HTML, CSS, JavaScript, Next.js, Python, and Generative AI. Open to internships, remote work & freelance projects.">
+    <meta name="description" content="Maryam Ghaffar - Frontend Developer, Web Developer & AI Enthusiast. Skilled in HTML, CSS, JavaScript, Next.js, Python, and Generative AI. Open to internships, remote work & freelance projects.">
     <meta name="author" content="Maryam Ghaffar">
     <meta name="robots" content="index, follow">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -16,19 +16,21 @@
 <!-- ===== NAVBAR ===== -->
 <nav class="navbar" id="navbar">
     <div class="container nav-container">
-        <a href="#home" class="logo">MG<span>.</span></a>
+        <a href="#home" class="logo">Maryam<span>.dev</span></a>
         <div class="nav-links" id="navLinks">
             <a href="#home" class="nav-link active">Home</a>
             <a href="#about" class="nav-link">About</a>
             <a href="#services" class="nav-link">Services</a>
             <a href="#skills" class="nav-link">Skills</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#education" class="nav-link">Education</a>
             <a href="#projects" class="nav-link">Projects</a>
             <a href="#certifications" class="nav-link">Certifications</a>
             <a href="#contact" class="nav-link">Contact</a>
         </div>
-        <div class="hamburger" id="hamburger">
+        <button class="hamburger" id="hamburger" aria-label="Open navigation menu">
             <span></span><span></span><span></span>
-        </div>
+        </button>
     </div>
 </nav>
 
@@ -59,9 +61,9 @@
                 </a>
             </div>
             <div class="hero-social">
-                <a href="https://github.com/maryamghaffar1234m-png" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/maryam-ghaffar-62551837b" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                <a href="mailto:maryamghaffar1234m@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com/maryamghaffar1234m-png" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/maryam-ghaffar-62551837b" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=maryamghaffar1234m@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a>
             </div>
         </div>
         <div class="hero-visual">
@@ -70,7 +72,7 @@
                 <div class="pulse-ring"></div>
                 <div class="pulse-ring delay-1"></div>
             </div>
-            <div class="float-badge badge-1"><i class="fas fa-code"></i> 8+ Projects</div>
+            <div class="float-badge badge-1"><i class="fas fa-code"></i> 9+ Projects</div>
             <div class="float-badge badge-2"><i class="fas fa-certificate"></i> 4 Certifications</div>
             <div class="float-badge badge-3"><i class="fas fa-star"></i> CGPA 3.44</div>
         </div>
@@ -85,7 +87,7 @@
     <div class="container">
         <div class="section-header">
             <span class="section-tag">About Me</span>
-            <h2 class="section-title">Turning Ideas into <span class="gradient-text">Digital Reality</span></h2>
+            <h2 class="section-title gradient-text">Turning Ideas into Digital Reality</h2>
         </div>
         <div class="about-grid">
             <div class="about-visual">
@@ -117,7 +119,7 @@
                 <p>Currently, I'm developing <strong>SmartPaper.pk</strong> — an academic web platform. I'm open to <strong>internships, remote opportunities, and freelance projects</strong>.</p>
                 <div class="about-stats">
                     <div class="stat">
-                        <span class="stat-num" data-count="8">0</span>
+                        <span class="stat-num" data-count="9">0</span>
                         <span class="stat-label">Projects</span>
                     </div>
                     <div class="stat">
@@ -143,8 +145,8 @@
     <div class="container">
         <div class="section-header">
             <span class="section-tag">What I Offer</span>
-            <h2 class="section-title">Freelance <span class="gradient-text">Services</span></h2>
-            <p class="section-desc">Frontend Development, Web Development, and AI-powered solutions.</p>
+            <h2 class="section-title gradient-text">Freelance Services</h2>
+            <p class="section-desc">Frontend Development, Web Development, and Generative AI Projects.</p>
         </div>
         <div class="services-grid" id="servicesGrid"></div>
     </div>
@@ -155,10 +157,34 @@
     <div class="container">
         <div class="section-header">
             <span class="section-tag">My Toolkit</span>
-            <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+            <h2 class="section-title gradient-text">Technical Skills</h2>
             <p class="section-desc">Technologies I work with to build modern web experiences.</p>
         </div>
         <div class="skills-grid" id="skillsGrid"></div>
+    </div>
+</section>
+
+<!-- ===== EXPERIENCE ===== -->
+<section id="experience" class="experience">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">My Journey</span>
+            <h2 class="section-title gradient-text">Work Experience</h2>
+            <p class="section-desc">Professional experience that shaped my skills and career.</p>
+        </div>
+        <div class="timeline" id="timeline"></div>
+    </div>
+</section>
+
+<!-- ===== EDUCATION ===== -->
+<section id="education" class="education">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Academic Background</span>
+            <h2 class="section-title gradient-text">Education</h2>
+            <p class="section-desc">My academic qualifications and certifications.</p>
+        </div>
+        <div class="education-grid" id="educationGrid"></div>
     </div>
 </section>
 
@@ -167,7 +193,7 @@
     <div class="container">
         <div class="section-header">
             <span class="section-tag">Portfolio</span>
-            <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+            <h2 class="section-title gradient-text">Featured Projects</h2>
             <p class="section-desc">Real projects built with modern technologies — from web apps to AI tools.</p>
         </div>
         <div class="project-filters" id="projectFilters">
@@ -187,7 +213,7 @@
     <div class="container">
         <div class="section-header">
             <span class="section-tag">Achievements</span>
-            <h2 class="section-title">My <span class="gradient-text">Certifications</span></h2>
+            <h2 class="section-title gradient-text">My Certifications</h2>
             <p class="section-desc">Professional certifications that validate my skills and knowledge.</p>
         </div>
         <div class="cert-grid" id="certGrid"></div>
@@ -199,7 +225,7 @@
     <div class="container">
         <div class="section-header">
             <span class="section-tag">Get in Touch</span>
-            <h2 class="section-title">Let's <span class="gradient-text">Work Together</span></h2>
+            <h2 class="section-title gradient-text">Let's Work Together</h2>
             <p class="section-desc">Have a project in mind? I'd love to hear from you.</p>
         </div>
         <div class="contact-wrapper">
@@ -208,7 +234,7 @@
                     <div class="info-icon"><i class="fas fa-envelope"></i></div>
                     <div>
                         <h4>Email</h4>
-                        <a href="mailto:maryamghaffar1234m@gmail.com">maryamghaffar1234m@gmail.com</a>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=maryamghaffar1234m@gmail.com" target="_blank" rel="noopener noreferrer">maryamghaffar1234m@gmail.com</a>
                     </div>
                 </div>
                 <div class="info-card">
@@ -229,21 +255,33 @@
                     <div class="info-icon"><i class="fas fa-clock"></i></div>
                     <div>
                         <h4>Availability</h4>
-                        <p>Mon–Fri, 9AM–6PM PKT</p>
+                        <p>Monday – Sunday, 9AM – 9PM PKT</p>
                     </div>
                 </div>
             </div>
             <form class="contact-form" id="contactForm" onsubmit="sendEmail(event)">
                 <div class="form-row">
-                    <input type="text" id="name" placeholder="Your Name" required>
-                    <input type="email" id="email" placeholder="Your Email" required>
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" placeholder="Enter your email" required>
+                    </div>
                 </div>
-                <input type="text" id="subject" placeholder="Subject" required>
-                <textarea id="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" placeholder="Project subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                </div>
                 <button type="submit" class="btn btn-primary btn-full">
                     <i class="fas fa-paper-plane"></i> Send Message
                 </button>
-                <p class="form-note">Your email app will open. Just click Send.</p>
+                <p class="form-note">Your message will open in Gmail. Just click Send.</p>
             </form>
         </div>
     </div>
@@ -254,26 +292,27 @@
     <div class="container">
         <div class="footer-grid">
             <div>
-                <div class="logo">MG<span>.</span></div>
+                <div class="logo">Maryam<span>.dev</span></div>
                 <p class="footer-desc">Frontend Developer, Web Developer & AI Enthusiast building modern, responsive websites. Open to internships, remote work & freelance projects.</p>
                 <div class="footer-social">
-                    <a href="https://github.com/maryamghaffar1234m-png" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/maryam-ghaffar-62551837b" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="mailto:maryamghaffar1234m@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://github.com/maryamghaffar1234m-png" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/maryam-ghaffar-62551837b" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=maryamghaffar1234m@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a>
                 </div>
             </div>
             <div>
                 <h4>Quick Links</h4>
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
-                <a href="#services">Services</a>
+                <a href="#experience">Experience</a>
+                <a href="#education">Education</a>
                 <a href="#projects">Projects</a>
             </div>
             <div>
                 <h4>Resources</h4>
                 <a href="Maryam_CV_Professional.pdf" download>Download CV</a>
-                <a href="https://github.com/maryamghaffar1234m-png" target="_blank">GitHub</a>
-                <a href="https://www.linkedin.com/in/maryam-ghaffar-62551837b" target="_blank">LinkedIn</a>
+                <a href="https://github.com/maryamghaffar1234m-png" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/maryam-ghaffar-62551837b" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </div>
         </div>
         <div class="footer-bottom">
@@ -285,10 +324,10 @@
 <!-- ===== CERTIFICATE MODAL ===== -->
 <div class="modal" id="certModal">
     <span class="modal-close" id="modalClose">&times;</span>
-    <img class="modal-img" id="modalImg">
+    <img class="modal-img" id="modalImg" alt="Certificate Preview">
 </div>
 
-<button class="back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></button>
+<button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
 
 <script src="script.js"></script>
 </body>
